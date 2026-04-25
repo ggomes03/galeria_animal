@@ -8,14 +8,15 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Seção de boas-vindas */
+/* Título da página*/
 .caixa {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
     border: 2px solid #ccc;
-    background-color: #e0e0e0;
+    background-color: black;
     text-align: center;
+    color: white;
 }
 
 /* Container principal - Imagem e Descrição lado a lado */
@@ -23,10 +24,11 @@ body {
     display: flex;
     gap: 50px;
     padding: 30px;
-    align-items: center;
+    align-items: flex-start;
     max-width: 1200px;
     margin: 0 auto;
     border: 2px solid #ccc;
+    
 }
 
 /* Seção da Imagem */
@@ -62,7 +64,7 @@ body {
 
 /* Botão para mostrar/esconder informações */
 .alternar-exibicao {
-    background-color: #4CAF50;
+    background-color: rgb(21, 21, 21);
     color: white;
     border: none;
     padding: 12px 24px;
@@ -73,21 +75,12 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.alternar-exibicao:hover {
-    background-color: #45a049;
-}
-
-.alternar-exibicao:active {
-    background-color: #3d8b40;
-    transform: scale(0.98);
-}
-
 /* Seção de informações extras */
 .informacoes-extra {
     margin-top: 20px;
     padding: 20px;
     background-color: #f9f9f9;
-    border-left: 4px solid #4CAF50;
+    border-left: 4px solid #333;
     border-radius: 5px;
     animation: fadeIn 0.3s ease;
 }
@@ -97,7 +90,7 @@ body {
     font-size: 1.3rem;
     margin-top: 15px;
     margin-bottom: 10px;
-    color: #4CAF50;
+    color: black;
 }
 
 .informacoes-extra h2:first-child {
