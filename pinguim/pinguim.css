@@ -1,0 +1,117 @@
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f0ff;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1a6fa8;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+/* Conteúdo principal */
+main {
+    display: flex;
+    justify-content: center;
+    padding: 30px 20px;
+}
+
+/* Card do animal */
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Imagem / emoji do animal */
+.imagem-animal {
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+
+/* Nome do animal */
+.card h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    color: #1a6fa8;
+}
+
+/* Nome científico */
+.nome-cientifico {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+    margin-top: 5px;
+}
+
+/* Seções de informação */
+.info, .caracteristicas, .curiosidade {
+    margin-top: 25px;
+    border-top: 2px solid #e0f0ff;
+    padding-top: 15px;
+}
+
+.info h3, .caracteristicas h3, .curiosidade h3 {
+    color: #1a6fa8;
+    margin-bottom: 10px;
+}
+
+/* Lista de características */
+.caracteristicas ul {
+    list-style: none;
+    padding: 0;
+}
+
+.caracteristicas ul li {
+    padding: 6px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+/* Texto da curiosidade */
+#texto-curiosidade {
+    background-color: #f0f8ff;
+    padding: 12px;
+    border-radius: 6px;
+    border-left: 4px solid #1a6fa8;
+}
+
+/* Botão */
+button {
+    margin-top: 10px;
+    background-color: #1a6fa8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #155d8e;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a6fa8;
+    color: white;
+    margin-top: 40px;
+}
