@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    align-items: center;
+    display: block;
+    min-height: 100vh;
+    
+    
+}
+.conteudo{
+    text-align: justify;
+    display: inline-block;
+    padding: 0 400 0 400;
+}
+footer{
+    text-align: center;
+    padding: 0 400 0 400;
+    margin-top: 30;
+    font-size: 13px;
+
+}
