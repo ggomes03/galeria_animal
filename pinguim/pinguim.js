@@ -1,6 +1,6 @@
 // Lista de curiosidades sobre o pinguim
 var curiosidades = [
-    "Pinguins são monógamos: muitas espécies ficam com o mesmo parceiro por toda a vida!",
+    "Pinguins são monógamos: muitas espécies ficam com o mesmo parceiro por toda a vida",
     "Eles conseguem nadar a até 40 km/h dentro da água.",
     "Os pinguins imperadores ficam em pé por meses no inverno antártico chocando os ovos sem comer.",
     "Pinguins bebem água do mar! O corpo deles filtra o sal pelo bico.",
