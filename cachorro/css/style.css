@@ -13,34 +13,44 @@ body{
 
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+}
+
+header {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 42px;
 }
 
 .card{
-    background-color: beige;
-    padding: 20px 15px;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    max-width: 300px;
+    background-color: rgba(245, 245, 220, 0.9);
+    margin:0;
+    padding: 80px;
+    border-radius:30px;
+    max-width: 600px;
     width: 90%;
     text-align: center;
 
-    box-shadow: 2px 5px 15px rgba(178, 209, 230, 0.17);
+    box-shadow: 10px 15px 25px rgba(178, 209, 230, 0.17);
 }
 
 .card img{
-    width: 50px;
-    margin: 50px, 100px, 250px, 100px ;
-
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
+    display: block;
 }
 
 .card button{
     padding: 10px;
     margin-top: 70px;
-    border: 1px;
-    border-color: black;
-    border-top-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
 
     background-color: cadetblue;
     color: black;
@@ -56,5 +66,4 @@ body{
 #info{
     margin-top: 80px;
     text-align: center;
-    text-decoration: underline;
 }
