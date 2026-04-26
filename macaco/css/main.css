@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(158, 124, 69);
+}
+
+h1{
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    background-color: rgb(170, 85, 0);
+    border: 3px solid brown;
+    border-style: ridge;
+}
+
+
+.bamboo{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: -8px;
+    height: 339px;
+    width: 534px;
+}
+
+
+.slider{
+    padding-top: 10px;
+    width: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider img{
+    padding: auto;
+    height: 440px;
+    width: 440px;
+    display: none;
+    border: 3px solid brown;
+    border-style: ridge;
+}
+img.displaySlide{
+    display: block;
+}
+
+
+.conteiner{
+    display: flex;
+    margin-left: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.container_for_information{
+    flex: 1;
+    padding-left: 10px;
+    padding-right: 3px;
+    margin-top: 10px;
+}
+
+.informações{
+    border: 3px solid brown;
+    background-color: rgb(170, 85, 0);
+    border-style: ridge;
+}
+
+.fix{
+    border: 3px solid brown;
+    border-style: ridge;
+}
+
+h2{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 5px;
+    font-size: 30px;
+}
+.lista{
+    background-color: chocolate;
+    margin-top: -10px;
+    margin-bottom: -15px;
+}
+
+ul{
+  margin-top: 10px;
+  margin-left: -20px;
+}
