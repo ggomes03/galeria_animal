@@ -28,3 +28,21 @@ const scrollRevealOption = {
   origin: "bottom",
   duration: 2000,
 };
+
+ScrollReveal().reveal(".header__container h1", {
+  ...scrollRevealOption,
+  delay: 1000,
+});
+ScrollReveal().reveal(".header__container p", {
+  ...scrollRevealOption,
+  delay: 2000,
+});
+ScrollReveal().reveal(".header__container .header__btn", {
+  ...scrollRevealOption,
+  delay: 3000,
+});
+ScrollReveal().reveal(".socials li", {
+  ...scrollRevealOption,
+  delay: 4000,
+  interval: 500,
+});
