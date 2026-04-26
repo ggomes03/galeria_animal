@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: azure;
+    font-family: Arial, sans-serif;
+}
+
+/* Título da página*/
+.caixa {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+/* Container principal - Imagem e Descrição lado a lado */
+.container {
+    display: flex;
+    gap: 50px;
+    padding: 30px;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    
+}
+
+/* Seção da Imagem */
+.imagem {
+    width: 45%;
+    flex-shrink: 0;
+}
+
+.imagem img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Seção da Descrição */
+.descricao {
+    width: 55%;
+}
+
+.descricao h1 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+
+.descricao p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+/* Botão para mostrar/esconder informações */
+.alternar-exibicao {
+    background-color: rgb(21, 21, 21);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+/* Seção de informações extras */
+.informacoes-extra {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #333;
+    border-radius: 5px;
+    animation: fadeIn 0.3s ease;
+}
+
+.informacoes-extra h2 {
+    color: #333;
+    font-size: 1.3rem;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.informacoes-extra h2:first-child {
+    margin-top: 0;
+}
+
+.informacoes-extra p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Animação de fade in */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
