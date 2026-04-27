@@ -1,12 +1,14 @@
+// Seleciona o botão e a seção de curiosidade
 const botao = document.getElementById('btn-acao');
-const textoCuriosidade = document.getElementById('curiosidade');
+const curiosidade = document.getElementById('curiosidade');
 
-botao.addEventListener('click', () => {
-    if (textoCuriosidade.style.display === 'none') {
-        textoCuriosidade.style.display = 'block';
+// Adiciona o evento de clique
+botao.addEventListener('click', function() {
+    if (curiosidade.style.display === 'none') {
+        curiosidade.style.display = 'block';
         botao.textContent = 'Esconder Curiosidade';
     } else {
-        textoCuriosidade.style.display = 'none';
+        curiosidade.style.display = 'none';
         botao.textContent = 'Ver Curiosidade';
     }
 });
